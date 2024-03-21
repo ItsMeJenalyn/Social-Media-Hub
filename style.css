@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b90c9d;
+    background-image: url("background_image.png");
+    background-size: cover; /* or background-size: contain; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+}
